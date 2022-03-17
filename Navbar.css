@@ -9,16 +9,16 @@ body {
     font-family: sans-serif;
     font-weight: 400;
 }
-
+/* ===============================NAVIGATION================================== */
 .topnav {
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
-header{
+nav{
     background-color: rgb(140, 255, 251);
 }
-header::after {
+nav::after {
     content: '';
     display: table;
     clear: both;
@@ -30,10 +30,10 @@ header::after {
     margin-right: 20px;
     padding-top: 5px;
 }
-nav{
+.nav{
     float: right;
 }
-nav ul{
+.nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -65,4 +65,39 @@ nav a:hover::after{
 }
 .center{
     text-align: center;
+}
+/* ===============================HEADER================================== */
+header {
+    background-color: rgb(100, 211, 255);
+    height: 400px;
+}
+header p {
+    margin: 0;
+}
+header a h1{
+    margin: 10;
+}
+.HeaderContainer {
+    text-align: center;
+    padding-top: 130px;
+}
+.btnservices{
+    background-color: #85af4b;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 15px 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.btnabout{
+    background-color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 15px 10px;
+    color: #85af4b;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
 }
