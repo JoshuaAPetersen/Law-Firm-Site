@@ -3,10 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Legal Heroes Limited</title>
     <style>
       .column {
         width: 23%;
+        float: left;
+        padding: 15px;
+      }
+      .aboutcolumn {
+        width: 48%;
         float: left;
         padding: 15px;
       }
@@ -35,12 +40,22 @@
   <link rel="stylesheet" type="text/css" href="Navbar.css" />
   <link rel="stylesheet" type="text/css" href="Footer.css" />
   <body>
-    <header>
+    <nav>
       <div class="TopLogo center">
         <img src="logo.PNG" class="logo" />
         <h1 class="">Legal Heroes Limited</h1>
       </div>
+    </nav>
+
+    <header>
+      <div class="HeaderContainer">
+        <p>Welcome to Legal Heroes Limited, a website for all things law related</p>
+        <h1>Legal Consoltants</h1>
+        <a href="#" class="btnservices">OUR SERVICES</a>
+        <a href="#" class="btnabout">ABOUT US</a>
+      </div>
     </header>
+    
       <div class="center">
         <h2 class="">Our Services</h2>
       </div>
@@ -68,5 +83,22 @@
           <p>It is critical to structure your business for success. We understand that our clients business needs are unique. We take the time to understand and clearly identify your objectives. We ensure our clients receive practical and sound advice to assist them in all legal matters relating to their business.</p>
         </div>
       </div>
-      
+
+      <div class="center">
+        <h2>About Us</h2>
+      </div>
+      <div class="aboutcolumn">
+        <div class="table center">
+          <img src="http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTCpEEVvJbolM_T2oMBTX2NAbMDrfOH62oPkp_Cict5jiLfPZzNPWlOsfWtTRha" class="AboutImg">
+          <h4>John Smith</h4>
+          <p>John graduated with an LLB in 1971 and an MBA in 1988 both from the University of Auckland. His expertise is in Relationship Property and Trusts</p>
+        </div>
+      </div>
+      <div class="aboutcolumn">
+        <div class="table center">
+          <img src="https://m.media-amazon.com/images/M/MV5BMTk4MDM0MDUzM15BMl5BanBnXkFtZTcwOTI4MzU1Mw@@._V1_UY264_CR6,0,178,264_AL_.jpg" class="AboutImg">
+          <h4>Jackie Chan</h4>
+          <p>Jackie was a partner in LHL for over 30 years in its commercial and property department. Jackie became a consultant in May 2016.</p>
+        </div>
+      </div>
   </body>
