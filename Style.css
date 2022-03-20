@@ -1,0 +1,139 @@
+@media screen and (max-width: 500px){
+    .column{
+        width: 100%;
+    }
+}
+body {
+    margin: 0;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.logo{
+    float: none;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+.center{
+    text-align: center;
+}
+/* ===============================NAVIGATION================================== */
+.topnav {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+nav{
+    background-color: rgb(140, 255, 251);
+}
+nav::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+.nav{
+    float: right;
+}
+.nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+nav a{
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+nav a:hover{
+    color: black;
+}
+nav a::after {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+    width: 0;
+}
+nav a:hover::after{
+    width: 100%;
+}
+/* ===============================HEADER================================== */
+header {
+    background-color: rgb(100, 211, 255);
+    height: 400px;
+}
+header p {
+    margin: 0;
+}
+header a h1{
+    margin: 10;
+}
+.HeaderContainer {
+    text-align: center;
+    padding-top: 130px;
+}
+.btnservices{
+    background-color: #85af4b;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 15px 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.btnabout{
+    background-color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 15px 10px;
+    color: #85af4b;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.column {
+  width: 23%;
+  float: left;
+  padding: 15px;
+}
+.aboutcolumn {
+  width: 48%;
+  float: left;
+  padding: 15px;
+}
+#welcome {
+  font-weight: 200;
+  font-size: 30px;
+}
+.image {
+  width: 100%;
+}
+.row {
+  float: left;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.fcolumn {
+  width: 15%;
+  float: left;
+  padding: 15px;
+}
+.AboutImg {
+  float: none;
+  width: 300px;
+  height: 425px;
+  padding: 5px;
+}
